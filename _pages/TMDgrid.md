@@ -22,22 +22,22 @@ Information about the binning of the variables is contained in the header of the
 Further details can be found in the Reference.
 
 We encourage users to take a look at this short manual where we provide the necessary conventions and definitions for the involved transverse momenta, the relevant TMDs and structure functions:
-[TMD_conventions.pdf](https://github.com/JeffersonLab/TMDgrid/blob/master/TMD_conventions.pdf)
+[TMD_conventions.pdf](./TMDgrid/TMD_conventions.pdf)
 
 
 ## Download
 
 Download Structure functions $$F_T,  F_{UUT}, F_{UTT}^{\sin(\phi_h-\phi_S)}$$ grids:
-- [Structure function part 1](https://github.com/JeffersonLab/TMDgrid/tree/master/Structure_Functions/SF_grid_part1.tar.gz)
-- [Structure function part 2](https://github.com/JeffersonLab/TMDgrid/tree/master/Structure_Functions/SF_grid_part2.tar.gz)
+- [Structure function part 1](./TMDgrid/Structure_Functions/SF_grid_part1.tar.gz)
+- [Structure function part 2](./TMDgrid/Structure_Functions/SF_grid_part2.tar.gz)
 This grid is split in two part for storage reasons, to join them after unpacking, run the following command in the folder where the .txt files are:
 `cat SF_grid_part1.txt SF_grid_part2.txt > SF_grid.txt`
 
 Download unpolarized TMD PDF $$f_1(x,k_\perp^2; Q^2)$$ grids
-- [TMD PDF](https://github.com/JeffersonLab/TMDgrid/tree/master/TMD_distributions/grid_f1.tar.gz)
+- [TMD PDF](./TMDgrid/TMD_distributions/grid_f1.tar.gz)
 
 Download unpolarized TMD FF $$D_1(z,P_\perp^2; Q^2)$$ grids
-- [TMD FF](https://github.com/JeffersonLab/TMDgrid/tree/master/TMD_distributions/grid_D1.tar.gz)
+- [TMD FF](./TMDgrid/TMD_distributions/grid_D1.tar.gz)
 
 ## References
 
